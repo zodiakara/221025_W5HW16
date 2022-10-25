@@ -412,7 +412,8 @@
       // ex1 Write a JavaScript functionality to add a new link into the navbar
       const addNewLink = function () {
         let navBar = document.querySelector(".nav");
-        let addLink = document.createElement("span");
+        let addLink = document.createElement("a");
+        addLink.setAttribute("href", "https://www.google.com");
         addLink.innerText = "LINK";
         navBar.appendChild(addLink);
       };
@@ -428,7 +429,7 @@
       // ex3 Write a JavaScript functionality to change the background of the jumbotron
       const changeBcg = function () {
         let jumbo = document.querySelector("div.jumbotron");
-        jumbo.style.backgroundColor = "red";
+        jumbo.style.backgroundColor = "lightblue";
       };
       console.log(changeBcg());
 
@@ -448,7 +449,7 @@
       const addNewPost = function () {
         let blogDiv = document.getElementsByClassName("col-md-8");
         let newDiv = document.createElement("div");
-        newDiv.setAttribute("class", "blog-post");
+        newDiv.classList.add("blog-post");
         blogDiv.appendChild(newDiv);
       };
       console.log(addNewPost());

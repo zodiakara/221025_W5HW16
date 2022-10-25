@@ -3,11 +3,13 @@
 }
 
 .nav span {
+  border-bottom: solid black 2px;
 }
 .jumbotron a {
   color: red;
 }
 .blog-post:first-of-type {
+  font-style: italic;
 }
 .blog-post:first-of-type .blog-post-meta [href] {
   color: red;
