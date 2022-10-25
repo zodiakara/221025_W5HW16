@@ -1,0 +1,52 @@
+.jumbotron h1 {
+  color: blue;
+}
+
+.nav span {
+}
+.jumbotron a {
+  color: red;
+}
+.blog-post:first-of-type {
+}
+.blog-post:first-of-type .blog-post-meta [href] {
+  color: red;
+}
+.nav span:nth-child(2n) {
+  font-weight: bold;
+}
+.list-unstyled.mb-0 [href="#"] {
+  color: brown;
+}
+.blog-post:nth-child(3) p:first-of-type a {
+  background-color: blueviolet;
+}
+
+.blog-post:last-of-type li:nth-child(2) {
+  color: blueviolet;
+}
+
+.float-right {
+  color: blue;
+}
+.btn:nth-child(2) {
+  font-weight: bold;
+}
+.blog-footer a:last-of-type {
+  color: red;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
